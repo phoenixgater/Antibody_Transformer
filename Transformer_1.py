@@ -14,7 +14,7 @@ import time
 import logo_maker
 import Write_Results
 import Query_SabDab
-import Evaluation_And_Results.Antigen_Attention_Annotation as AAA
+import Antigen_Attention_Annotation as AAA
 
 print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 print(tf.config.list_physical_devices('GPU'))
